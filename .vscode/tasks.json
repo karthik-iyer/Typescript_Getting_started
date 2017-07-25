@@ -1,0 +1,15 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "tsc",
+    "type": "shell",
+    "isShellCommand":true,    
+    "args": ["-w" , "-p", "Typescript_1/tsconfig.json"],
+    "presentation": {       
+        "reveal":  "silent"        
+    }
+    ,
+    "iswatching":true,
+    "problemMatcher" :"$tsc-watch"
+}
