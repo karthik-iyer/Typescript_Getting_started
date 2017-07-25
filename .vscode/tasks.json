@@ -5,11 +5,11 @@
     "command": "tsc",
     "type": "shell",
     "isShellCommand":true,    
-    "args": ["-w" , "-p", "Typescript_1/tsconfig.json"],
+    "args": ["-w" , "-p", "."],
     "presentation": {       
         "reveal":  "silent"        
     }
     ,
     "iswatching":true,
-    "problemMatcher" :"$tsc-watch"
+    "problemMatcher" : "$tsc-watch"
 }
